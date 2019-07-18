@@ -4,34 +4,15 @@
 使用MVC设计模式，制作了简易版的考试系统
 
 #### 软件架构
-软件架构说明
+1.M：使用EntityContext模拟数据库，存放用户信息和题库，以及后续用户的答题信息
+2.V：绘制了3个基本界面，登陆界面LoginFrame、菜单界面MenuFrame、考试界面ExamFrame，并使用ClientContext统一控制这3个界面，负责切换。
+3.C：业务控制器，存放了各种业务方法，如：切换界面方法、生成试卷方法、上一题下一题等。
 
+ps.由于刚开始接触MVC设计模式，部分代码未严格遵循MVC设计模式。
 
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
 
 #### 参与贡献
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+文泽路小男孩
 
 
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
